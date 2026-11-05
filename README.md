@@ -3,7 +3,7 @@
 Every official [Omarchy](https://omarchy.org/) theme, as a Vivaldi browser theme,
 so the browser matches the desktop. Omarchy themes its own apps, but not Vivaldi.
 
-Built from Omarchy 4.0.4-1 — 22 themes.
+Built from Omarchy 4.0.4-1 (Jade Horse from 4.5.0-3) — 23 themes.
 
 ## Install
 
@@ -24,6 +24,7 @@ keep the archives somewhere like `~/Downloads`.
 | `flexoki-light.zip` | Flexoki Light | light | `#FFFCF0` | `#f2efe4` | `#205EA6` | `1-orb.png` |
 | `gruvbox.zip` | Gruvbox | dark | `#282828` | `#1e1e1e` | `#7daea3` | `1-the-backwater.jpg` |
 | `hackerman.zip` | Hackerman | dark | `#0B0C16` | `#080910` | `#82FB9C` | `1-synth-scape.jpg` |
+| `jade-horse.zip` | Jade Horse | dark | `#142620` | `#0f1e19` | `#8bcbb1` | `01-mountain-horses.webp` |
 | `kanagawa.zip` | Kanagawa | dark | `#1f1f28` | `#17171e` | `#dcd7ba` | `1-kanagawa.jpg` |
 | `last-horizon.zip` | Last Horizon | dark | `#0c0b0c` | `#090809` | `#b59790` | `1-eyes-wide.jpg` |
 | `lumon.zip` | Lumon | dark | `#16242d` | `#101b21` | `#8bc9eb` | `01-united-in-severance.jpg` |
