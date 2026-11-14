@@ -3,7 +3,8 @@
 Every official [Omarchy](https://omarchy.org/) theme, as a Vivaldi browser theme,
 so the browser matches the desktop. Omarchy themes its own apps, but not Vivaldi.
 
-Built from Omarchy 4.0.4-1 (Jade Horse from 4.5.0-3) — 23 themes.
+Built from Omarchy 4.0.4-1 (Jade Horse from 4.5.0-3), plus two community
+themes — 25 themes total.
 
 ## Install
 
@@ -19,6 +20,7 @@ keep the archives somewhere like `~/Downloads`.
 |---|---|---|---|---|---|---|
 | `catppuccin-latte.zip` | Catppuccin Latte | light | `#eff1f5` | `#e3e4e8` | `#1e66f5` | `1-color-fade.png` |
 | `catppuccin.zip` | Catppuccin | dark | `#1e1e2e` | `#161622` | `#89b4fa` | `1-totoro.png` |
+| `dracula.zip` | Dracula | dark | `#282a36` | `#21222c` | `#8be9fd` | `base.png` |
 | `ethereal.zip` | Ethereal | dark | `#060B1E` | `#040816` | `#7d82d9` | `1-cosmic.jpg` |
 | `everforest.zip` | Everforest | dark | `#2d353b` | `#21272c` | `#7fbbb3` | `1-tree-tops.jpg` |
 | `flexoki-light.zip` | Flexoki Light | light | `#FFFCF0` | `#f2efe4` | `#205EA6` | `1-orb.png` |
@@ -36,10 +38,39 @@ keep the archives somewhere like `~/Downloads`.
 | `retro-82.zip` | Retro-82 | dark | `#05182e` | `#031222` | `#faa968` | `1-in-the-groove.jpg` |
 | `ristretto.zip` | Ristretto | dark | `#2c2525` | `#211b1b` | `#f38d70` | `0-launch.png` |
 | `rose-pine.zip` | Rose Pine | light | `#faf4ed` | `#ede7e1` | `#56949f` | `1-funky-shapes.jpg` |
+| `rose-pine-dark.zip` | Rose Pine Dark | dark | `#191724` | `#13111b` | `#ebbcba` | `1-leafy-omarchy.webp` |
 | `solitude.zip` | Solitude | dark | `#101315` | `#0c0e10` | `#798186` | `1-on-pole.jpg` |
 | `tokyo-night.zip` | Tokyo Night | dark | `#1a1b26` | `#13141c` | `#7aa2f7` | `0-winding-road.jpg` |
 | `vantablack.zip` | Vantablack | dark | `#000000` | `#090909` | `#8d8d8d` | `0-dot-hands.jpg` |
 | `white.zip` | White | light | `#ffffff` | `#f5f5f5` | `#6e6e6e` | `1-white.jpg` |
+
+### Theme descriptions
+
+- **Catppuccin Latte:** A soft, pale theme with a vivid blue highlight and a gentle color-fade Start Page.
+- **Catppuccin:** Deep blue-purple chrome with a light blue highlight and a playful Totoro background.
+- **Dracula:** Dark slate-purple chrome, bright cyan highlights, and a moon-and-bats Start Page. Inspired by [catlee/omarchy-dracula-theme](https://github.com/catlee/omarchy-dracula-theme).
+- **Ethereal:** Almost-black navy with a muted violet highlight and a cosmic Start Page.
+- **Everforest:** Forest-toned charcoal with a cool sage highlight and a treetop background.
+- **Flexoki Light:** Warm off-white surfaces, a deep blue highlight, and a minimal orb background.
+- **Gruvbox:** Warm charcoal with a subdued teal highlight and a rustic waterside background.
+- **Hackerman:** Inky navy, neon-green highlights, and a synth-inspired Start Page.
+- **Jade Horse:** Deep green-black chrome with a pale jade highlight and mountain horses.
+- **Kanagawa:** Ink-dark violet with a warm cream highlight and a wave-inspired background.
+- **Last Horizon:** Near-black chrome with a dusty-rose highlight and an eye-themed Start Page.
+- **Lumon:** Cool blue-gray chrome with an icy blue highlight and a *Severance*-inspired background.
+- **Lupine:** Crisp white surfaces with a bright blue highlight and soft cherry-blossom bokeh.
+- **Matte Black:** Minimal charcoal and black with an amber highlight and a ship-at-sea background.
+- **Miasma:** Smoky charcoal with a muted olive highlight and an ominous nature-themed Start Page.
+- **Nord:** Slate-blue chrome with an icy blue highlight and a black-moon background.
+- **Osaka Jade:** Dark green-black with a jade highlight and a glowing cityscape.
+- **Retro-82:** Midnight blue with a warm peach highlight and a retro-inspired Start Page.
+- **Ristretto:** Coffee-brown chrome with a coral highlight and a warm-toned background.
+- **Rose Pine:** The light Rosé Pine Dawn palette: warm ivory, teal highlights, and abstract shapes.
+- **Rose Pine Dark:** The dark Rosé Pine Main palette: aubergine chrome, rose highlights, and leafy artwork. Based on [guilhermetk/omarchy-rose-pine-dark](https://github.com/guilhermetk/omarchy-rose-pine-dark).
+- **Solitude:** Deep blue-black with a restrained gray highlight and a sparse, atmospheric background.
+- **Tokyo Night:** Night-sky indigo with a bright blue highlight and a winding-road background.
+- **Vantablack:** Pure black chrome with gray highlights and a minimal dot-hands background.
+- **White:** Clean white surfaces, subtle gray highlights, and a monochrome Start Page.
 
 ## How a palette maps onto Vivaldi
 
@@ -71,10 +102,22 @@ python3 build.py --themes ~/my/themes     # another themes directory
 Your own Omarchy themes in `~/.config/omarchy/themes` work too, as long as they
 ship a `colors.toml`.
 
+The community themes use their upstream `colors.toml` files in
+`sources/dracula/` and `sources/rose-pine-dark/` without palette changes.
+Their original wallpapers live separately in `backgrounds/dracula/` and
+`backgrounds/rose-pine-dark/`; the first in each folder becomes its Start Page
+image. Rebuild both with:
+
+```bash
+python3 build.py --themes sources --only dracula rose-pine-dark
+```
+
 ## Credits
 
 The palettes and backgrounds come from the Omarchy themes, and belong to their
 original authors and artists. This repository only repackages them for Vivaldi;
-the build script is MIT licensed.
+the build script is MIT licensed. The two community sources are
+[catlee/omarchy-dracula-theme](https://github.com/catlee/omarchy-dracula-theme)
+and [guilhermetk/omarchy-rose-pine-dark](https://github.com/guilhermetk/omarchy-rose-pine-dark).
 
 Unofficial — not affiliated with Omarchy or Vivaldi.

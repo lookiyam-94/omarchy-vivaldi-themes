@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a Vivaldi theme for every official Omarchy theme.
+"""Build Vivaldi themes from Omarchy palettes.
 
 Each Omarchy theme ships a colors.toml and a folder of backgrounds. This packs
 those into a theme archive Vivaldi can import (Settings > Themes > Import
@@ -8,6 +8,7 @@ Theme...), so the browser matches the desktop.
     python3 build.py                          # every theme in /usr/share/omarchy/themes
     python3 build.py --only nord tokyo-night  # just these
     python3 build.py --themes ~/omarchy/themes --out dist
+    python3 build.py --themes sources --only dracula rose-pine-dark
 
 Needs ImageMagick (`magick`) to scale the Start Page image.
 """
@@ -48,6 +49,13 @@ def title_of(slug):
 
 def first_background(theme_dir):
     bg_dir = os.path.join(theme_dir, "backgrounds")
+    if (
+        not os.path.isdir(bg_dir)
+        and os.path.dirname(os.path.abspath(theme_dir)) == os.path.join(HERE, "sources")
+    ):
+        # Local palettes can live in sources/ while their full-size images
+        # remain in the repository's separate backgrounds/ directory.
+        bg_dir = os.path.join(HERE, "backgrounds", os.path.basename(theme_dir))
     if not os.path.isdir(bg_dir):
         return None
     files = sorted(f for f in os.listdir(bg_dir) if f.lower().endswith(IMAGE_EXTENSIONS))
