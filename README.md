@@ -46,31 +46,158 @@ keep the archives somewhere like `~/Downloads`.
 
 ### Theme descriptions
 
-- **Catppuccin Latte:** A soft, pale theme with a vivid blue highlight and a gentle color-fade Start Page.
-- **Catppuccin:** Deep blue-purple chrome with a light blue highlight and a playful Totoro background.
-- **Dracula:** Dark slate-purple chrome, bright cyan highlights, and a moon-and-bats Start Page. Inspired by [catlee/omarchy-dracula-theme](https://github.com/catlee/omarchy-dracula-theme).
-- **Ethereal:** Almost-black navy with a muted violet highlight and a cosmic Start Page.
-- **Everforest:** Forest-toned charcoal with a cool sage highlight and a treetop background.
-- **Flexoki Light:** Warm off-white surfaces, a deep blue highlight, and a minimal orb background.
-- **Gruvbox:** Warm charcoal with a subdued teal highlight and a rustic waterside background.
-- **Hackerman:** Inky navy, neon-green highlights, and a synth-inspired Start Page.
-- **Jade Horse:** Deep green-black chrome with a pale jade highlight and mountain horses.
-- **Kanagawa:** Ink-dark violet with a warm cream highlight and a wave-inspired background.
-- **Last Horizon:** Near-black chrome with a dusty-rose highlight and an eye-themed Start Page.
-- **Lumon:** Cool blue-gray chrome with an icy blue highlight and a *Severance*-inspired background.
-- **Lupine:** Crisp white surfaces with a bright blue highlight and soft cherry-blossom bokeh.
-- **Matte Black:** Minimal charcoal and black with an amber highlight and a ship-at-sea background.
-- **Miasma:** Smoky charcoal with a muted olive highlight and an ominous nature-themed Start Page.
-- **Nord:** Slate-blue chrome with an icy blue highlight and a black-moon background.
-- **Osaka Jade:** Dark green-black with a jade highlight and a glowing cityscape.
-- **Retro-82:** Midnight blue with a warm peach highlight and a retro-inspired Start Page.
-- **Ristretto:** Coffee-brown chrome with a coral highlight and a warm-toned background.
-- **Rose Pine:** The light Rosé Pine Dawn palette: warm ivory, teal highlights, and abstract shapes.
-- **Rose Pine Dark:** The dark Rosé Pine Main palette: aubergine chrome, rose highlights, and leafy artwork. Based on [guilhermetk/omarchy-rose-pine-dark](https://github.com/guilhermetk/omarchy-rose-pine-dark).
-- **Solitude:** Deep blue-black with a restrained gray highlight and a sparse, atmospheric background.
-- **Tokyo Night:** Night-sky indigo with a bright blue highlight and a winding-road background.
-- **Vantablack:** Pure black chrome with gray highlights and a minimal dot-hands background.
-- **White:** Clean white surfaces, subtle gray highlights, and a monochrome Start Page.
+#### Catppuccin Latte (Omarchy)
+
+The light Catppuccin Latte theme from Omarchy, brought to Vivaldi so the browser
+matches the desktop. Pale gray toolbars and a slightly darker tab bar frame
+soft charcoal text, while a clear blue accent marks focus and selection.
+
+#### Catppuccin (Omarchy)
+
+The Catppuccin theme from Omarchy, brought to Vivaldi so the browser matches
+the desktop. Toolbars sit on Mocha's deep indigo base, the tab bar one shade
+darker, and soft lavender-white text keeps it easy on the eyes. The pastel
+blue accent marks focus and selection.
+
+#### Dracula (Omarchy)
+
+The [Dracula theme by catlee](https://github.com/catlee/omarchy-dracula-theme)
+for Omarchy, brought to Vivaldi so the browser matches the desktop. Slate-purple
+toolbars sit above a darker tab bar, with warm white text and bright cyan focus
+and selection. A moon-and-bats background completes the Start Page.
+
+#### Ethereal (Omarchy)
+
+The Ethereal theme from Omarchy, brought to Vivaldi so the browser matches the
+desktop. Nearly black navy toolbars meet an even darker tab bar, while warm
+peach text and a muted violet accent soften the cosmic mood.
+
+#### Everforest (Omarchy)
+
+The Everforest theme from Omarchy, brought to Vivaldi so the browser matches
+the desktop. Forest-charcoal toolbars, a darker tab bar, and warm sand-colored
+text keep the chrome calm. A sage highlight picks out focus and selection.
+
+#### Flexoki Light (Omarchy)
+
+The light Flexoki theme from Omarchy, brought to Vivaldi so the browser matches
+the desktop. Warm off-white toolbars and a slightly deeper cream tab bar make
+room for near-black text. A rich blue accent gives focus and selection definition.
+
+#### Gruvbox (Omarchy)
+
+The Gruvbox theme from Omarchy, brought to Vivaldi so the browser matches the
+desktop. Warm charcoal toolbars and a darker tab bar pair with sandy text;
+muted teal highlights give the familiar earthy palette a cool counterpoint.
+
+#### Hackerman (Omarchy)
+
+The Hackerman theme from Omarchy, brought to Vivaldi so the browser matches
+the desktop. Inky navy chrome and a darker tab bar put pale icy text in sharp
+relief. Neon-green focus and selection bring the synth-inspired look to life.
+
+#### Jade Horse (Omarchy)
+
+The Jade Horse theme from Omarchy, brought to Vivaldi so the browser matches
+the desktop. Deep forest-green toolbars and a darker tab bar surround pale
+mint text, with a soft jade accent for focus and selection.
+
+#### Kanagawa (Omarchy)
+
+The Kanagawa theme from Omarchy, brought to Vivaldi so the browser matches
+the desktop. Ink-dark violet toolbars and a deeper tab bar set off warm
+parchment-colored text. The same gentle cream highlights focus and selection.
+
+#### Last Horizon (Omarchy)
+
+The Last Horizon theme from Omarchy, brought to Vivaldi so the browser matches
+the desktop. Near-black toolbars and an even darker tab bar make the bright
+text stand out, while a dusty-rose accent lends focus and selection a quiet glow.
+
+#### Lumon (Omarchy)
+
+The Lumon theme from Omarchy, brought to Vivaldi so the browser matches the
+desktop. Cool blue-gray toolbars, a deeper tab bar, and pale blue text evoke
+the restrained *Severance*-inspired look. Icy blue marks focus and selection.
+
+#### Lupine (Omarchy)
+
+The light Lupine theme from Omarchy, brought to Vivaldi so the browser matches
+the desktop. Crisp white toolbars and a pale gray tab bar keep dark text clean
+and legible. Bright blue highlights pair with a soft cherry-blossom Start Page.
+
+#### Matte Black (Omarchy)
+
+The Matte Black theme from Omarchy, brought to Vivaldi so the browser matches
+the desktop. Charcoal toolbars, an almost-black tab bar, and understated gray
+text keep distractions low. Amber highlights add a single warm point of focus.
+
+#### Miasma (Omarchy)
+
+The Miasma theme from Omarchy, brought to Vivaldi so the browser matches the
+desktop. Smoky charcoal toolbars and a darker tab bar carry soft gray-beige
+text, while muted olive highlights give focus and selection an earthy edge.
+
+#### Nord (Omarchy)
+
+The Nord theme from Omarchy, brought to Vivaldi so the browser matches the
+desktop. Slate-blue toolbars and a darker tab bar frame frost-pale text.
+A cool blue accent marks focus and selection without breaking the wintry calm.
+
+#### Osaka Jade (Omarchy)
+
+The Osaka Jade theme from Omarchy, brought to Vivaldi so the browser matches
+the desktop. Dark green-black toolbars and an even deeper tab bar meet
+yellow-green text, with a jade accent that picks out focus and selection.
+
+#### Retro-82 (Omarchy)
+
+The Retro-82 theme from Omarchy, brought to Vivaldi so the browser matches
+the desktop. Midnight-blue toolbars and a darker tab bar frame warm cream
+text, while peach highlights bring a little retro glow to focus and selection.
+
+#### Ristretto (Omarchy)
+
+The Ristretto theme from Omarchy, brought to Vivaldi so the browser matches
+the desktop. Coffee-brown toolbars and a deeper espresso tab bar surround
+soft pale text. A coral accent warms up focus and selection.
+
+#### Rose Pine (Omarchy)
+
+The light Rosé Pine Dawn theme from Omarchy, brought to Vivaldi so the browser
+matches the desktop. Ivory toolbars and a slightly darker cream tab bar carry
+muted plum text. Teal highlights lend focus and selection a gentle contrast.
+
+#### Rose Pine Dark (Omarchy)
+
+The [Rosé Pine Dark theme by guilhermetk](https://github.com/guilhermetk/omarchy-rose-pine-dark)
+for Omarchy, brought to Vivaldi so the browser matches the desktop. Aubergine
+toolbars and a darker tab bar support lavender-white text. Soft rose highlights
+mark focus and selection, with leafy artwork on the Start Page.
+
+#### Solitude (Omarchy)
+
+The Solitude theme from Omarchy, brought to Vivaldi so the browser matches
+the desktop. Deep blue-black toolbars and a darker tab bar keep the chrome
+spare, with pale gray text and a restrained slate highlight for focus.
+
+#### Tokyo Night (Omarchy)
+
+The Tokyo Night theme from Omarchy, brought to Vivaldi so the browser matches
+the desktop. Night-sky indigo toolbars and a deeper tab bar frame cool gray-blue
+text. Bright blue highlights pick out focus and selection.
+
+#### Vantablack (Omarchy)
+
+The Vantablack theme from Omarchy, brought to Vivaldi so the browser matches
+the desktop. Pure black toolbars sit against a barely lighter tab bar, with
+white text for maximum clarity and soft gray highlights for focus.
+
+#### White (Omarchy)
+
+The White theme from Omarchy, brought to Vivaldi so the browser matches the
+desktop. White toolbars and a subtle pale-gray tab bar give black text plenty
+of contrast, while quiet gray highlights mark focus and selection.
 
 ## How a palette maps onto Vivaldi
 
