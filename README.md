@@ -1,10 +1,10 @@
 # Omarchy themes for Vivaldi
 
-Every official [Omarchy](https://omarchy.org/) theme, as a Vivaldi browser theme,
+Omarchy themes, as Vivaldi browser themes,
 so the browser matches the desktop. Omarchy themes its own apps, but not Vivaldi.
 
-Built from Omarchy 4.0.4-1 (Jade Horse from 4.5.0-3), plus two community
-themes — 25 themes total.
+Built from Omarchy 4.0.4-1 (Jade Horse from 4.5.0-3), plus Starship from the
+installed Omarchy theme and two community themes — 26 themes total.
 
 ## Install
 
@@ -40,6 +40,7 @@ keep the archives somewhere like `~/Downloads`.
 | `rose-pine.zip` | Rose Pine | light | `#faf4ed` | `#ede7e1` | `#56949f` | `1-funky-shapes.jpg` |
 | `rose-pine-dark.zip` | Rose Pine Dark | dark | `#191724` | `#13111b` | `#ebbcba` | `1-leafy-omarchy.webp` |
 | `solitude.zip` | Solitude | dark | `#101315` | `#0c0e10` | `#798186` | `1-on-pole.jpg` |
+| `starship.zip` | Starship | dark | `#1c1c1e` | `#161618` | `#ff9f0a` | `1-starbase.webp` |
 | `tokyo-night.zip` | Tokyo Night | dark | `#1a1b26` | `#13141c` | `#7aa2f7` | `0-winding-road.jpg` |
 | `vantablack.zip` | Vantablack | dark | `#000000` | `#090909` | `#8d8d8d` | `0-dot-hands.jpg` |
 | `white.zip` | White | light | `#ffffff` | `#f5f5f5` | `#6e6e6e` | `1-white.jpg` |
@@ -180,6 +181,13 @@ mark focus and selection, with leafy artwork on the Start Page.
 The Solitude theme from Omarchy, brought to Vivaldi so the browser matches
 the desktop. Deep blue-black toolbars and a darker tab bar keep the chrome
 spare, with pale gray text and a restrained slate highlight for focus.
+
+#### Starship (Omarchy)
+
+The Starship theme from Omarchy, brought to Vivaldi so the browser matches
+the desktop. Graphite toolbars and a deeper charcoal tab bar frame crisp
+off-white text, while an amber accent marks focus and selection. A Starship
+launch against sunlit clouds fills the Start Page.
 
 #### Tokyo Night (Omarchy)
 
