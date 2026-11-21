@@ -4,7 +4,8 @@ Omarchy themes, as Vivaldi browser themes,
 so the browser matches the desktop. Omarchy themes its own apps, but not Vivaldi.
 
 Built from Omarchy 4.0.4-1 (Jade Horse from 4.5.0-3), plus Starship from the
-installed Omarchy theme and two community themes — 26 themes total.
+installed Omarchy theme, two community themes and one of my own (Cursor Dark)
+— 27 themes total.
 
 ## Install
 
@@ -20,6 +21,7 @@ keep the archives somewhere like `~/Downloads`.
 |---|---|---|---|---|---|---|
 | `catppuccin-latte.zip` | Catppuccin Latte | light | `#eff1f5` | `#e3e4e8` | `#1e66f5` | `1-color-fade.png` |
 | `catppuccin.zip` | Catppuccin | dark | `#1e1e2e` | `#161622` | `#89b4fa` | `1-totoro.png` |
+| `cursor-dark.zip` | Cursor Dark | dark | `#191919` | `#141414` | `#8fbfff` | `01-cube.png` |
 | `dracula.zip` | Dracula | dark | `#282a36` | `#21222c` | `#8be9fd` | `base.png` |
 | `ethereal.zip` | Ethereal | dark | `#060B1E` | `#040816` | `#7d82d9` | `1-cosmic.jpg` |
 | `everforest.zip` | Everforest | dark | `#2d353b` | `#21272c` | `#7fbbb3` | `1-tree-tops.jpg` |
@@ -59,6 +61,14 @@ The Catppuccin theme from Omarchy, brought to Vivaldi so the browser matches
 the desktop. Toolbars sit on Mocha's deep indigo base, the tab bar one shade
 darker, and soft lavender-white text keeps it easy on the eyes. The pastel
 blue accent marks focus and selection.
+
+#### Cursor Dark (Omarchy)
+
+My own Omarchy theme, inspired by Cursor, Grok and Grok Bot, brought to Vivaldi
+so the browser matches the desktop. The greys are lifted from Cursor's built-in
+Cursor Dark: toolbars on the editor's `#191919`, the tab bar on the title bar's
+`#141414`, with soft white text. Cursor's link blue marks focus and selection,
+and the white Cursor cube sits alone on the Start Page.
 
 #### Dracula (Omarchy)
 
